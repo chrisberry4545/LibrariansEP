@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/biolayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bandpic"
+   	android:orientation="vertical"
+    android:weightSum="1.0"
+    tools:context=".MainActivity$DummySectionFragment" >
+
+    <TextView
+        android:id="@+id/soundcloudtextlink"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingLeft="@dimen/bio_padding"
+        android:paddingRight="@dimen/bio_padding"
+        android:gravity="center"
+        android:background="@color/translucent_brown"
+        android:text="@string/biography"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font_size" />
+
+</LinearLayout>

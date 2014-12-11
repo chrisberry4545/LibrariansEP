@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+	<array name="entries">
+		<item>@drawable/thepier</item>					
+		<item>@drawable/treadmills</item> 	 	
+		<item>@drawable/murder</item>		
+		<item>@drawable/halcyondays</item> 			
+		<item>@drawable/thefair</item>
+		<item>@drawable/thebaladofcarl</item>								
+	</array>	
+	<array name="names">
+	    <item>""</item>
+	    <item>""</item>
+	    <item>""</item>
+	    <item>""</item>
+	    <item>""</item>
+	    <item>""</item>
+	</array>
+	
+	<array name="songTitles">
+	    <item>The Pier</item>
+	    <item>Treadmills</item>
+	    <item>Murder</item>
+	    <item>Halcyon Days</item>
+	    <item>The Fair</item>
+	    <item>The Ballad of Carl</item>
+	</array>
+</resources>

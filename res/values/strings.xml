@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">The Librarians</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_section1">Bio</string>
+    <string name="title_section2">Tracks</string>
+    <string name="title_section3">Links</string>
+    <string name="biography">This Stiltonian three piece \'The Librarians\' aren\'t quite what you would expect from three village boys. As childhood friends returned from world travels and years partying at universities, The Librarians return with fresh vigour and new tales to tell. Heralding from a village where they roll cheese down a "hill", these boys will brighten up your earholes and certainly entertain you.</string>
+    <string name="twitterlink">https://twitter.com/librariansband</string>
+    <string name="soundcloudlink">http://soundcloud.com/the-librarians/sets</string>
+    <string name="youtubelink">http://www.youtube.com/user/TheLibrariansBand</string>
+    <string name="facebooklink">https://www.facebook.com/pages/The-Librarians/203993599617627</string>
+    <string name="bandcamplink">http://thelibrarians.bandcamp.com/</string>
+    <color name="trans_brown">#80ff0000</color>
+    <string name="contentdesc_soundcloud">sound cloud link</string>
+    <string name="contentdesc_youtube">youtube link</string>
+    <string name="contentdesc_facebook">facebook link</string>
+    <string name="contentdesc_twitter">twitter link</string>
+    <string name="contentdesc_bandcamp">bandcamp link</string>
+    <string name="now_playing">Now Playing: </string>
+
+</resources>

@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:pj="http://schemas.android.com/apk/res/chris.librariansep"
+    android:id="@+id/trackslayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@drawable/frontcover" >
+
+    <VideoView
+        android:id="@+id/videoView1"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:layout_gravity="bottom|center"
+        android:visibility="visible" />
+	
+    <RelativeLayout
+        android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:background="@color/translucent_brown"
+	    android:orientation="horizontal" >
+    
+	    <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:layout_alignParentLeft="true"
+	        android:layout_centerVertical="true"
+	        android:gravity="center_vertical"
+	        android:orientation="horizontal" >
+	
+	        <chris.carousel.Carousel
+	            android:id="@+id/carousel"
+	            android:layout_marginBottom="@dimen/carousel_margin"
+	            android:layout_marginTop="@dimen/carousel_margin"
+	            android:layout_width="fill_parent"
+	            android:layout_height="fill_parent"
+	            android:animationDuration="200"
+	            pj:Items="@array/entries"
+	            pj:Names="@array/names"
+	            pj:SelectedItem="0"
+	            pj:UseReflection="false" >
+	        </chris.carousel.Carousel>
+        
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

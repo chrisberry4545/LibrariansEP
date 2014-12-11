@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="links_margin">16dp</dimen>
+    
+    
+	<dimen name="links_margin_topbottom">0dp</dimen>
+	<dimen name="links_margin_sides">0dp</dimen>
+	
+	<dimen name="links_margin_top">70dp</dimen>
+	
+	<dimen name="carousel_margin">50dp</dimen>
+	<dimen name="bio_padding">0dp</dimen>
+	
+</resources>
